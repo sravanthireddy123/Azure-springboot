@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping
 	public String message(){
-		return "Successfully created spring boot in  version2";
+		return "Successfully created spring boot in  azure: version2";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
